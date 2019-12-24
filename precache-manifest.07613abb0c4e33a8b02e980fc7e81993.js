@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f7654aaf267acdf52bc9",
+    "revision": "cdbb54096981e5d4d772",
     "url": "/forecast-serbia/static/css/main.f53aa789.chunk.css"
   },
   {
-    "revision": "f7654aaf267acdf52bc9",
-    "url": "/forecast-serbia/static/js/main.f7654aaf.chunk.js"
+    "revision": "cdbb54096981e5d4d772",
+    "url": "/forecast-serbia/static/js/main.cdbb5409.chunk.js"
   },
   {
     "revision": "711729df6b62ce348b72",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/forecast-serbia/static/media/sleet.a0d9e9ae.svg"
   },
   {
-    "revision": "4a70a5060d7937b5d3ec70dd9f343c8e",
+    "revision": "b2f18074630bfcf7b9c5912ff2fab8fa",
     "url": "/forecast-serbia/index.html"
   }
 ];
