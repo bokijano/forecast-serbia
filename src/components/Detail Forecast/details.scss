@@ -85,6 +85,9 @@
       width: 20%;
       h6 {
         color: red;
+        @media screen and (max-width: 410px) {
+          height: 60px;
+        }
       }
       .long-temp {
         display: flex;

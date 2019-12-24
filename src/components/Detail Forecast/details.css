@@ -144,6 +144,12 @@
   color: red;
 }
 
+@media screen and (max-width: 410px) {
+  .detailForecast .dailyTemp .day-temp h6 {
+    height: 60px;
+  }
+}
+
 .detailForecast .dailyTemp .day-temp .long-temp {
   display: -webkit-box;
   display: -ms-flexbox;
