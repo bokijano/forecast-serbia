@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/forecast-serbia/precache-manifest.a1374500548f02dc86ee06b2c3a7b023.js"
+  "/forecast-serbia/precache-manifest.0f31f3cbcdf6810bc75563365f6559c7.js"
 );
 
 workbox.clientsClaim();
