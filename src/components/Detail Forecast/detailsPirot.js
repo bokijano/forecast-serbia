@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default class detailsPirot extends Component {
   state = {
-    proxy: "http://cors-anywhere.herokuapp.com/",
+    proxy: "https://cors-anywhere.herokuapp.com/",
     API_KEY: "fb4c116f915c61742654d62a921fffa2",
     temperature: "",
     summary: "",
