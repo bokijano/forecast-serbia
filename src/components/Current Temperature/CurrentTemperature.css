@@ -79,6 +79,13 @@
           align-items: center;
 }
 
+@media screen and (max-width: 411px) {
+  .map-content .city-pos h4 {
+    margin-bottom: -5px;
+    font-size: 13px;
+  }
+}
+
 .map-content .city-pos .temperature-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,5 +112,16 @@
 .map-content .city-pos .temperature-content h2,
 .map-content .city-pos .temperature-content span {
   margin: 2px;
+}
+
+@media screen and (max-width: 411px) {
+  .map-content .city-pos .temperature-content img {
+    height: 25px;
+    width: 25px;
+  }
+  .map-content .city-pos .temperature-content h3,
+  .map-content .city-pos .temperature-content span {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=CurrentTemperature.css.map */

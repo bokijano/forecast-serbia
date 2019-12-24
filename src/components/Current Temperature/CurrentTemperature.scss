@@ -56,6 +56,12 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    @media screen and (max-width: 411px) {
+      h4 {
+        margin-bottom: -5px;
+        font-size: 13px;
+      }
+    }
     .temperature-content {
       display: flex;
       flex-direction: row;
@@ -71,6 +77,16 @@
       h2,
       span {
         margin: 2px;
+      }
+      @media screen and (max-width: 411px) {
+        img {
+          height: 25px;
+          width: 25px;
+        }
+        h3,
+        span {
+          font-size: 14px;
+        }
       }
     }
   }

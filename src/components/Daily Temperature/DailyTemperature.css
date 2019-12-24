@@ -67,6 +67,19 @@
   padding-right: 10px;
 }
 
+@media screen and (max-width: 410px) {
+  .current-temperatures .curr-city .minTemp #min {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .current-temperatures .curr-city .minTemp #min {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+}
+
 .current-temperatures .curr-city .minTemp #text {
   font-size: 10px;
   font-weight: bolder;
@@ -90,6 +103,12 @@
   color: red;
   font-size: 25px;
   padding-left: 5px;
+}
+
+@media screen and (max-width: 411px) {
+  .current-temperatures .curr-city .maxTemp #max {
+    font-size: 20px;
+  }
 }
 
 .current-temperatures .curr-city .maxTemp #text {

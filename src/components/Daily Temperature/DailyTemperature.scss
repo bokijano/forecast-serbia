@@ -38,6 +38,13 @@
         font-size: 16px;
         padding-top: 5px;
         padding-right: 10px;
+        @media screen and (max-width: 410px) {
+          font-size: 14px;
+        }
+        @media screen and (max-width: 410px) {
+          font-size: 14px;
+          padding-right: 5px;
+        }
       }
       #text {
         font-size: 10px;
@@ -55,6 +62,9 @@
         color: red;
         font-size: 25px;
         padding-left: 5px;
+        @media screen and (max-width: 411px) {
+          font-size: 20px;
+        }
       }
       #text {
         font-size: 10px;
